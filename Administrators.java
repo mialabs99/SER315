@@ -35,12 +35,12 @@ public class Administrators {
 		return name;
 	}
 	
-	public void setAdminID(int newID) {
-		adminID = newID;
+	public void setAdminID(int adminID) {
+		this.adminID = adminID;
 	}
 	
-	public void setName(String newName) {
-		name = newName;
+	public void setName(String name) {
+		this.name = name;
 	}
 }
 
