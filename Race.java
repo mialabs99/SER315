@@ -2,6 +2,7 @@ package SER315_GroupProject;
 
 import java.util.ArrayList;
 
+//Class that holds race information.
 public class Race {
 	
 	//Race attributes
@@ -60,5 +61,6 @@ public class Race {
 		this.isOfficial = isOfficial;
 	}
 }
+
 
 
