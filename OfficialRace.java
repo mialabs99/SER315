@@ -2,14 +2,16 @@ package SER315_GroupProject;
 
 import java.util.ArrayList;
 
-public class OfficialRace {
+public class OfficialRace extends Race{
 	
 	//ArrayList that holds the results of each official race
-	ArrayList<RaceResults> results;
+	private ArrayList<RaceResults> results;
 	
 	//OfficialRace constructor
-	public OfficialRace(ArrayList<RaceResults> results) {
-		this.results = results;
+	public OfficialRace(String raceName, String raceDate, int numMiles, String raceRoute, ArrayList<String> stages,
+			Boolean isOfficial) {
+		super(raceName, raceDate, numMiles, raceRoute, stages, true);
+		this.results = new ArrayList<>();
 	}
 	
 	//Add new results to an official race
