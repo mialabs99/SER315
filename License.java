@@ -3,10 +3,10 @@ package SER315_GroupProject;
 public class License {
 	
 	//License attributes
-	String purchaseDate;
-	String expiryDate;
-	String ownerName;
-	CAT currentCAT;
+	private String purchaseDate;
+	private String expiryDate;
+	private String ownerName;
+	private CAT currentCAT;
 	
 	//License constructor
 	public License(String purchaseDate, String expiryDate, String ownerName, CAT currentCAT) {
@@ -30,3 +30,5 @@ public class License {
 		return currentCAT;
 	}
 }
+
+
