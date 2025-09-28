@@ -2,6 +2,7 @@ package SER315_GroupProject;
 
 import java.util.ArrayList;
 
+//Class that holds the information of the unofficial races
 public class UnofficialRace extends Race{
 	//ArrayList that holds the results of each official race
 	private ArrayList<RaceResults> results;
@@ -22,3 +23,4 @@ public class UnofficialRace extends Race{
 		return results.get(raceID);
 	}
 }
+
