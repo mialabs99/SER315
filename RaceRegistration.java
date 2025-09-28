@@ -2,6 +2,7 @@ package SER315_GroupProject;
 
 import java.util.ArrayList;
 
+//Class that hold registration info for each race.
 public class RaceRegistration {
 	
 	//RaceRegistration attributes
@@ -45,3 +46,5 @@ public class RaceRegistration {
 		this.requiredCAT = requiredCAT;
 	}
 }
+
+
