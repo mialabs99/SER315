@@ -1,5 +1,6 @@
 package SER315_GroupProject;
 
+//Class that holds the information for the racers' categories.
 public class CAT {
 	
 	//Enumeration for the different categories
@@ -32,4 +33,5 @@ public class CAT {
 	}
 	
 }
+
 
