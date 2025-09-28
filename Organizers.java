@@ -1,5 +1,6 @@
 package SER315_GroupProject;
 
+//Class that holds organizer information.
 public class Organizers {
 
 	//Organizer attributes
@@ -55,4 +56,5 @@ public class Organizers {
 		this.contactInfo = contactInfo;
 	}
 }
+
 
