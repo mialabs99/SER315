@@ -2,6 +2,7 @@ package SER315_GroupProject;
 
 import java.util.ArrayList;
 
+//Class that holds the race results of each race.
 public class RaceResults {
 	
 	//RaceResults attributes
@@ -25,3 +26,4 @@ public class RaceResults {
 		this.raceResults = raceResults;
 	}
 }
+
