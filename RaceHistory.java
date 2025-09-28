@@ -2,6 +2,7 @@ package SER315_GroupProject;
 
 import java.util.ArrayList;
 
+//Class that holds all of the past races.
 public class RaceHistory {
 	
 	//RaceHistory attribute
@@ -20,3 +21,5 @@ public class RaceHistory {
 		this.raceHistory = raceHistory;
 	}
 }
+
+
