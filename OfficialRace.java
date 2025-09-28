@@ -2,6 +2,7 @@ package SER315_GroupProject;
 
 import java.util.ArrayList;
 
+//Class that holds the information of the official races.
 public class OfficialRace extends Race{
 	
 	//ArrayList that holds the results of each official race
