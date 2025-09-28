@@ -2,6 +2,7 @@ package SER315_GroupProject;
 
 import java.util.ArrayList;
 
+//Class that holds the racer's information.
 public class Racers {
 	
 	//Racers attributes
@@ -86,4 +87,5 @@ public class Racers {
 		this.completedRaces = completedRaces;
 	}
 }
+
 
