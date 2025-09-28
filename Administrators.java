@@ -1,5 +1,6 @@
 package SER315_GroupProject;
 
+//Class that holds administrator information.
 public class Administrators {
 	
 	//Administrator attributes
@@ -50,5 +51,6 @@ public class Administrators {
 		this.contactInfo = contactInfo;
 	}
 }
+
 
 
