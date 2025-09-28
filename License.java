@@ -1,5 +1,6 @@
 package SER315_GroupProject;
 
+//Class that holds the information for a racer's license.
 public class License {
 	
 	//License attributes
@@ -30,5 +31,6 @@ public class License {
 		return currentCAT;
 	}
 }
+
 
 
