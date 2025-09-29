@@ -1,9 +1,10 @@
-# Design Patterns Implementation Documentation
+Design Patterns Implementation Documentation
 
-## Overview
+Overview
 This document describes the implementation of two design patterns in the racing system codebase:
 
 1 Factory Pattern: For creating different types of races
+
 2 Observer Pattern: For notifying stakeholders about race events
 
 Pattern 1: Factory Pattern
@@ -18,7 +19,7 @@ Implementation Files:
 - `Race.java` - Abstract product class
 
 
-### Benefits
+Benefits
 - Encapsulation: Creation logic is centralized
 - Flexibility: Easy to add new race types
 - Error Handling: Validates race types and provides meaningful errors
@@ -30,7 +31,7 @@ Pattern 2: Observer Pattern
 Purpose
 The Observer Pattern allows multiple stakeholders (Racers, Administrators, Organizers) to be notified about race events without tight coupling.
 
-### Implementation Files
+Implementation Files
 - `RaceObserver.java` - Interface for observers
 - `RaceSubject.java` - Subject class that manages observers
 - `Racers.java` - Implements RaceObserver
@@ -47,7 +48,7 @@ Benefits:
 
 
 
-### Organizers Class Enhancement
+Organizers Class Enhancement:
 The `Organizers` class now uses the Factory Pattern to create races and implements the Observer Pattern to receive notifications:
 
 
