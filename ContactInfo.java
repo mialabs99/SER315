@@ -16,22 +16,10 @@ public class ContactInfo {
 		}
 		
 		//Getters and setters
-		public String getPhoneNumber() {
-			return phoneNumber;
-		}
-		public String getAddress() {
-			return address;
-		}
-		public String getEmail() {
-			return email;
-		}
-		public void setPhoneNumber(String phoneNumber) {
-			this.phoneNumber = phoneNumber;
-		}
-		public void setAddress(String address) {
-			this.address = address;
-		}
-		public void setEmail(String email) {
-			this.email = email;
-		}
+		public String getPhoneNumber() {return phoneNumber;}
+		public String getAddress() {return address;}
+		public String getEmail() {return email;}
+		public void setPhoneNumber(String phoneNumber) {this.phoneNumber = phoneNumber;}
+		public void setAddress(String address) {this.address = address;}
+		public void setEmail(String email) {this.email = email;}
 }
