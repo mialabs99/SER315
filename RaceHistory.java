@@ -14,12 +14,9 @@ public class RaceHistory {
 	}
 	
 	//Getter and setter
-	public ArrayList<Race> getRaceHistory() {
-		return raceHistory;
-	}
-	public void setRaceHistory(ArrayList<Race> raceHistory) {
-		this.raceHistory = raceHistory;
-	}
+	public ArrayList<Race> getRaceHistory() {return raceHistory;}
+	public void setRaceHistory(ArrayList<Race> raceHistory) {this.raceHistory = raceHistory;}
 }
+
 
 
