@@ -42,9 +42,9 @@ Implementation Files
 
 Benefits:
 - Loose Coupling: Observers don't need to know about each other
--Extensibility: Easy to add new observers
--Maintainability: Changes to notification logic are centralized
--Real-time Updates: All stakeholders get notified immediately
+- Extensibility: Easy to add new observers
+- Maintainability: Changes to notification logic are centralized
+- Real-time Updates: All stakeholders get notified immediately
 
 
 
