@@ -1,28 +1,25 @@
+package SER315_GroupProject;
 
 import java.util.ArrayList;
 
-//class that holds the race results of each race.
+//Class that holds the race results of each race.
 public class RaceResults {
 	
-	//raceresults attributes
+	//RaceResults attributes
 	private ArrayList<Racers> raceResults;
 	
-	//raceresults constructor
+	//RaceResults constructor
 	public RaceResults(ArrayList<Racers> raceResults) {
 		this.raceResults = raceResults;
 	}
 	
-	//adds results of a completed race to a racer's profile
+	//Adds results of a completed race to a racer's profile
 	public void addRaceToProfile() {
 		
 	}
 	
-	//getter and setter
-	public ArrayList<Racers> getRaceResults() {
-		return raceResults;
-	}
-	public void setRaceResults(ArrayList<Racers> raceResults) {
-		this.raceResults = raceResults;
-	}
+	//Getter and setter
+	public ArrayList<Racers> getRaceResults() {return raceResults;}
+	public void setRaceResults(ArrayList<Racers> raceResults) {this.raceResults = raceResults;}
 }
 
