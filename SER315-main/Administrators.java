@@ -27,19 +27,25 @@ public class Administrators extends User {
         allAdministrators.remove(administrator);
     }
 
-    //Selects a user account to manage
-    public void ManageUserAccounts(int id, String managementChoice) {
-
+    //Manages a user account
+    public void ManageUserAccounts(int id, AccountManagement choice) {
+        int index = User.findUser(id);
+        if(choice == AccountManagement.DELETE && index != -1){
+            User.removeUser(index);
+        }
     }
 
-    //Selects a license to manage
-    public void ManageLicenses() {
-
+    //Manages a license
+    public void ManageLicenses(String ownerName, LicenseManagement choice) {
+        int index = License.findLicense(ownerName);
+        if(choice == LicenseManagement.DELETE && index != -1){
+            License.removeLicense(index);
+        }
     }
 
-    //Selects a setting to manage
+    //Manages system settings
     public void ManageSystemSettings() {
-
+        
     }
 
     //Getters and setters
@@ -50,6 +56,7 @@ public class Administrators extends User {
     }
     public void setAllAdministrators(ArrayList<User> allAdministrators){this.allAdministrators = allAdministrators;}
 }
+
 
 
 
