@@ -1,17 +1,14 @@
 package SER315_GroupProject;
 
 //Class that holds organizer information.
-public class Organizers {
+public class Organizers extends User{
 
 	//Organizer attributes
-	private int organizerID;
-	private String name;
 	private ContactInfo contactInfo;
 	
 	//Organizers constructor
 	public Organizers(int organizerID, String name, ContactInfo contactInfo) {
-		this.organizerID = organizerID;
-		this.name = name;
+        super(organizerID, name, Role.ORGANIZER);
 		this.contactInfo = contactInfo;
 	}
 	
@@ -36,21 +33,8 @@ public class Organizers {
 	}
 	
 	//Getters and setters
-	public int getOrganizerID() {
-		return organizerID;
-	}
-	public String getName() {
-		return name;
-	}
 	public ContactInfo getContactInfo() {
 		return contactInfo;
-	}
-	public void setOrganizerID(int organizerID) {
-		this.organizerID = organizerID;
-	}
-	
-	public void setName(String name) {
-		this.name = name;
 	}
 	public void setContactInfo(ContactInfo contactInfo) {
 		this.contactInfo = contactInfo;

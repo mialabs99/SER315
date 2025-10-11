@@ -18,19 +18,12 @@ public class License {
 	}
 	
 	//Getters and setters
-	public String getPurchaseDate() {
-		return purchaseDate;
-	}
-	public String getExpiryDate() {
-		return expiryDate;
-	}
-	public String getOwnerName() {
-		return ownerName;
-	}
-	public CAT getCurrentCAT() {
-		return currentCAT;
-	}
+	public String getPurchaseDate() {return purchaseDate;}
+	public String getExpiryDate() {return expiryDate;}
+	public String getOwnerName() {return ownerName;}
+	public CAT getCurrentCAT() {return currentCAT;}
 }
+
 
 
 

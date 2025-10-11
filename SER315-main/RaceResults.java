@@ -19,11 +19,7 @@ public class RaceResults {
 	}
 	
 	//Getter and setter
-	public ArrayList<Racers> getRaceResults() {
-		return raceResults;
-	}
-	public void setRaceResults(ArrayList<Racers> raceResults) {
-		this.raceResults = raceResults;
-	}
+	public ArrayList<Racers> getRaceResults() {return raceResults;}
+	public void setRaceResults(ArrayList<Racers> raceResults) {this.raceResults = raceResults;}
 }
 
